@@ -24,6 +24,7 @@ body{
 
 .navbar-first-container{
     display: flex;
+    align-items: center;
     flex-direction: row;
     height: 15%;
     width: 100%;
@@ -35,7 +36,7 @@ body{
     align-items: center;
     justify-content: end;
     padding-right: 1%;
-    width: 40%;
+    width: 50%;
     height: 100%;
 }
 
@@ -47,14 +48,18 @@ body{
     color: #FFF;
     font-weight: 400;
     font-size: 3.125rem;
+    font-family: 'Aladin';
     
 }
 
+
+
 .anchor-navbar-first-container{
     display: flex;
-    width: 30%;
-    justify-content: center;
     align-items: center;
+    width: 30%;
+    height: 100%;
+    justify-content: center;
     padding-left: 5%;
     gap: 20%;
     
@@ -64,13 +69,27 @@ body{
 .anchor-navbar-first-container a{
     text-decoration: none;
     color: #FFF;
+    font-family: 'Amaranth';
+    font-size: 1.25rem;
 }
 
-/* .a2-navbar-first-container{
-    background-color: transparent;
+.button-navbar-first-container{
+    display: flex;
+    width: 30%;
+    height: 40%;
     
-} */
+    
+    
+}
 
+.button-navbar-first-container button{
+    width: 100%;
+    border-radius: 8px;
+    background: rgba(228, 250, 238, 0.08);
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    font-family: 'Amaranth';
+}
 
 .content-first-container{
 
@@ -116,6 +135,7 @@ body{
     font-weight: 400;
     font-size: 3.125rem;
     text-align: center;
+    font-family: 'Aladin';
 
 }
 
@@ -126,6 +146,8 @@ body{
     padding-top: 2%;
     padding-bottom: 5%;
     text-align: center;
+    font-family: 'Amaranth';
+    width: 75%;
 }
 
 .start-paragraph-content-first-container button{
@@ -135,6 +157,9 @@ body{
     width: 20%;
     height: 10%;
     border-radius: 8px;
+    font-family: 'Amaranth';
+    font-weight: 400;
+    font-size: 1.125rem;
 }
 
 
@@ -158,6 +183,7 @@ body{
     padding-left: 1%;
     font-size: 1.125rem;
     font-weight: 400s;
+    font-family: 'Amaranth';
 }
 
 .image2-content-first-container{
@@ -198,6 +224,7 @@ body{
     color:#B8FFE1;
     font-weight: 400;
     font-size: 1.375rem;
+    font-family: 'Amaranth';
 }
 
 .images-footerFirt-container{
@@ -231,7 +258,10 @@ body{
 .title-third-container h1{
     color: #113A2D;
     font-size: 3.125rem;
+    font-weight: 400;
     padding-top: 2%;
+    font-family: 'Aladin';
+
 }
 
 .buttons-third-container{
@@ -257,6 +287,7 @@ body{
     font-weight: 400;
     text-decoration: none;
     text-align: center;
+    font-family: 'Amaranth';
 }
 
 .button1-buttons-third-container{
@@ -266,15 +297,17 @@ body{
     background-color: #113A2D;
     color: #FFFFFF;
     border-radius: 10px;
-    width: 20%;
-    height: 80%;
+    width: 15%;
+    height: 60%;
     
 }
 
 .button1-buttons-third-container button{
-    height: 70%;
+    height: 50%;
     max-width: 70%;
     font-size: 1.25rem;
+    font-family: 'Amaranth';
+    cursor: pointer;
 
 }
 
@@ -283,7 +316,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 80%;
+    width: 70%;
     height: 50%;
 }
 
@@ -302,31 +335,48 @@ body{
 .text-card-third-container{
     display: flex;
     justify-content: space-between;
+    width: 80%;
 }
+.text-card-third-container p{
+    text-align:center;
+}
+
+
+.text2-card-third-container{
+    display: flex;
+    width: 80%;
+
+}
+
+
 
 .parrafo.card{
     font-size: 1.125rem;
     font-weight: 400;
     color: #113A2D;
+    font-family: 'Amaranth';
 }
 
 .parrafo2-card{
     color: #113A2D;
     font-weight: 400;
     font-size: 1rem;
+    font-family: 'Amaranth';
 }
 .parrafo3-card{
     color: #000000;
-font-size: 1.25rem;
+    font-size: 1.25rem;
+    font-family: 'Amaranth';
 }
 
 .imagen-card{
     display: flex;
+    justify-content: center;
     width: 100%;
 }
 
 .imagen-card img{
-    min-width: 100%;
+    min-width: 90%;
 }
 
 .button-end-third-container{
@@ -346,6 +396,7 @@ font-size: 1.25rem;
     height: 30%;
     font-weight: 400;
     font-size: 1.125rem;
+    font-family: 'Amaranth';
 }
 
 /* Cuarto contenedor principal */
@@ -372,6 +423,7 @@ font-size: 1.25rem;
     color:  #113A2D;
     font-weight: 400;
     font-size: 3.125rem;
+    font-family: 'Aladin';
 
 }
 
@@ -386,10 +438,44 @@ font-size: 1.25rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 15%;
+    justify-content: space-between;
+    width: 20%;
     height: 80%;
+    padding-bottom: 10px;
 }
 
+.image-cards-fourth-container{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: 40%;
+}
+
+.text-paragrapg-fourth-container{
+    width: 75%;
+    height: 20%;
+}
+
+.text-paragrapg-fourth-container p{
+    color:#113A2D;
+    font-weight: 400;
+    font-size: 1.25rem;
+    font-family: 'Amaranth';
+    text-align: center;
+}
+
+.text2-paragrapg-fourth-container{
+    width: 75%;
+    height: 25%;
+    text-align: center;
+
+}
+
+.text2-paragrapg-fourth-container p{
+    text-align: center;
+    font-family: 'Amaranth';
+    font-size: 0.875rem;
+}
 
 
 
@@ -578,39 +664,18 @@ font-size: 1.25rem;
     color: #FFFFFF ;
     font-weight: 400;
     font-size: 3.125rem;
+    font-family: 'Aladin';
 
 }
 
-.paragraph1-seventh-container a{
+.paragraph-seventh-container a{
     color: #B8FFE1;
     font-weight: 400;
     font-size: 1.375rem;
     text-decoration: none;
+    font-family: 'Amaranth';
 }
-.paragraph2-seventh-container a{
-    color: #B8FFE1;
-    font-weight: 400;
-    font-size: 1.375rem;
-    text-decoration: none;
-}
-.paragraph3-seventh-container a{
-    color: #B8FFE1;
-    font-weight: 400;
-    font-size: 1.375rem;
-    text-decoration: none;
-}
-.paragraph4-seventh-container a{
-    color: #B8FFE1;
-    font-weight: 400;
-    font-size: 1.375rem;
-    text-decoration: none;
-}
-.paragraph5-seventh-container a{
-    color: #B8FFE1;
-    font-weight: 400;
-    font-size: 1.375rem;
-    text-decoration: none;
-}
+
 
 
 .eighth-container{
@@ -636,6 +701,7 @@ font-size: 1.25rem;
     font-weight: 400;
     color: #FFFFFF;
     padding-left: 1%;
+    font-family: 'Aladin';
 
 }
 .title-eighth-container img{
@@ -673,6 +739,7 @@ font-size: 1.25rem;
     text-decoration: none;
     font-weight: 400;
     font-size: 1.25rem ;
+    font-family: 'Amaranth';
 }
 
 
@@ -685,6 +752,7 @@ font-size: 1.25rem;
     height: 50%;
     width: 20%;
     color: #FFFFFF;;
+    font-family: 'Amaranth';
     
 }
 
@@ -692,6 +760,7 @@ font-size: 1.25rem;
     font-weight: 400;
     font-size: 1.25rem;
     color: #B8FFE1;
+    font-family: 'Amaranth';
     
 
 }
